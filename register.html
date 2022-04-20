@@ -1,0 +1,32 @@
+
+<html>
+<head>
+    <title>REGISTER</title>
+    <link rel="stylesheet" type="text/css" href="regis.css">
+    <script src="register.js"></script>
+</head>
+<body>
+    <div class="box">
+        <h2>REGISTRATION</h2>
+
+        <form action="login.html" method="post"  onsubmit= "return getdetails()">
+            <div class="inputBox">
+
+
+                <input type="text" name="username" id ="username" placeholder="UserName" />
+                <input type="email" name="email" id="email" placeholder="Email" required onkeyup="this.setAttribute('value', this.value);" >
+                <input type="password" name="password1" id="password1" placeholder="Password" required >
+                     
+
+
+                <input type="submit" name="sign-in" value="Sign Up">
+        </form>
+        
+    </div>
+
+    <div>
+     
+    </div>
+
+</body>
+</html>
